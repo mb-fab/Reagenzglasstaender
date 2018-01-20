@@ -1,0 +1,16 @@
+# Temporary
+*~
+.*.swp
+*.scad.??????
+
+# Pictures
+*.jpg
+*.png
+
+# Binary
+*.pyc
+
+# Outputs
+*.pdf
+*.svg
+
