@@ -1,0 +1,3 @@
+[submodule "snap-joint"]
+	path = snap-joint
+	url = git@github.com:mb-fab/snap-joint.git
