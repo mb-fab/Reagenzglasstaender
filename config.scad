@@ -1,14 +1,30 @@
 
 $fn = 100;
-material_z = 3;
 nothing = 0.01;
 
-layer_x = 150;
-layer_y = 30;
+// Material to cut from
+material_z = 3;
 
+// Layer size
+layer_size_x = 150;
+layer_size_y = 30;
+
+// Flask cutout properties
 hole_count = 4;
 hole_diameter = 20;
 
+// Layer heights
+bottom_offset_z = 40;
+layer_offset_z = 80;
+
+// Side properties
+side_size_y = layer_size_y;
+side_size_z = 86;
+side_offset_z = 5;
+side_extension_y = 20;
+side_extension_z = 30;
+
+// Snap connector properties
 snap_joint_width = 25;
 snap_joint_height = 25;
 snap_joint_feather_width = 5;
